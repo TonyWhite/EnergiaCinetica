@@ -1,0 +1,49 @@
+DOWNLOAD ULTIMA VERSIONE
+EnergiaCinetica.jar (v1.1)
+
+REQUISITI
+Java 6
+
+COSA FA
+Questa è una utility;
+Calcola l'energia cinetica di una massa in movimento.
+
+CARATTERISTICHE E LIMITAZIONI
+Calola automaticamente i valori delle celle mancanti;
+Calcola automaticamente le formule inverse per i valori mancanti
+Nel momento in cui l'utente inserisce valori incoerenti, corregge tutte le celle incoerenti;
+Usa le unità di misura del Sistema Internazionale;
+Usa il punto come separatore dei decimali;
+Può visualizzare fino a 6 cifre decimali;
+È possibile cambiare le grandezze delle unità di misura;
+È possibile aggiungere nuove righe per calcoli differenti;
+Manca una scrollbar verticale: è necessaria?
+
+INFO
+- L'interfaccia grafica è integrata con quella di sistema;
+- Il programma calcola l'energia cinetica ed aggiorna automaticamente i valori incoerenti;
+- L'icona animata non è una gif, altrimenti non si avrebbero le gradazioni di trasparenza, ma una serie di fotogrammi png;
+- Ottimo per ripassare alcuni concetti di fisica, come ad esempio il calcolo della massa che è diverso dal peso.
+
+NOVITÀ E BUGFIX
+18 settembre 2012
+- Corretto il set della dimensione minima della finestra all'avvio;
+
+17 settembre 2012
+- Riscritto completamente il layout per consentire l'aggiunta e la rimozione di righe di calcolo;
+- Aggiunto il megagrammo (più comunemente Tonnellata);
+- Aggiunto il megajoule;
+- Corretti tutti i bug noti sull'inserimento del testo;
+
+13 settembre 2012
+- Può effettuare 3 calcoli nella stessa finestra;
+- È possibile cambiare le grandezze delle unità di misura;
+- Corretti alcuni bug sull'inserimento del testo;
+- Ora l'icona è verde;
+
+10 settembre 2012
+- Calola automaticamente i risultati;
+- Calcola automaticamente le formule inverse;
+- Ricalcola dopo l'inserimento di un valore incoerente;
+- Usa le unità di misura del Sistema Internazionale;
+- Aggiunta icona animata rossa.

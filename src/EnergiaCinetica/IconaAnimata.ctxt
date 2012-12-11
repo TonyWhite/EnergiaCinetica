@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=percorso\ estensione\ fotogrammi
+comment0.target=IconaAnimata(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\n\ Crea\ l'oggetto\n
+comment1.params=
+comment1.target=java.awt.Image\ getNext()
+comment1.text=\n\ Ritorna\ il\ prossimo\ fotogramma\ da\ visualizzare\n
+comment2.params=path
+comment2.target=java.awt.Image\ getIcona(java.lang.String)
+comment2.text=\n\ Ritorna\ un'icona\n
+numComments=3

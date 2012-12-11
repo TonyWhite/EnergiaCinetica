@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=EnergiaCinetica()
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ run()
+comment2.text=Thread\ \ per\ animare\ l'icona\ della\ finestra
+numComments=3
