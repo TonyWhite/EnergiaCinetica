@@ -1,8 +1,8 @@
 DOWNLOAD ULTIMA VERSIONE
-EnergiaCinetica.jar (v1.1)
+EnergiaCinetica.jar (v1.1.2)
 
 REQUISITI
-Java 6
+Open Java 6 oppure Oracle Java 6
 
 COSA FA
 Questa è una utility;
@@ -26,6 +26,9 @@ INFO
 - Ottimo per ripassare alcuni concetti di fisica, come ad esempio il calcolo della massa che è diverso dal peso.
 
 NOVITÀ E BUGFIX
+02 gennaio 2013
+- Migliorata l'integrazione grafica: su sistemi Linux con XFCE ed altri WM non si attivava il Look&Feel GTK+;
+
 18 settembre 2012
 - Corretto il set della dimensione minima della finestra all'avvio;
 

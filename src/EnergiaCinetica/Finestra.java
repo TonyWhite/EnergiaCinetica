@@ -4,7 +4,7 @@
  * Autore: Antonio Bianco
  * Creazione: 09/09/2012
  * Ultima modifica: 18/09/2012
- * Versione: 1.1 stable
+ * Versione: 1.1.2 stable
  */
 import java.awt.Dimension;
 import java.awt.GridLayout;
@@ -34,6 +34,10 @@ import java.util.Locale;
 import java.util.Vector;
 public class Finestra extends JFrame implements WindowListener, KeyListener, ActionListener, FocusListener
 {
+    // Costanti
+    private final String NOME_APPLICAZIONE = "Energia cinetica";
+    private final String VERSIONE_APPLICAZIONE = "1.1.2";
+    
     // Istanza di variabili
     private int calcoli = 1;          // Righe da visualizzare
     private Vector<CalcoloEnergiaCinetica> calcoloEnergiaCinetica = new Vector<CalcoloEnergiaCinetica>();
@@ -69,7 +73,8 @@ public class Finestra extends JFrame implements WindowListener, KeyListener, Act
      */
     public Finestra()
     {
-        super("Energia cinetica 1.1");
+        super();
+        this.setTitle(NOME_APPLICAZIONE + " " + VERSIONE_APPLICAZIONE);
         
         // Definizione del formato numerico
         DecimalFormatSymbols simboli = new DecimalFormatSymbols(Locale.getDefault());

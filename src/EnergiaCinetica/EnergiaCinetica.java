@@ -3,8 +3,8 @@
  * 
  * Autore: Antonio Bianco
  * Creazione: 09/09/2012
- * Ultima modifica: 09/09/2012
- * Versione: 1.0 stable
+ * Ultima modifica: 02/01/2013
+ * Versione: 1.1.2 stable
  */
 import javax.swing.UIManager;
 import javax.swing.UIManager.LookAndFeelInfo;
@@ -25,9 +25,27 @@ public class EnergiaCinetica implements Runnable
         // Carica il look and feel predefinito di sistema
         try
         {
-            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+            String tema = OSValidator.getTemaIntegrazione();
+            String temaClassName = "";
+            for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels())
+            {
+                if (tema.equals(info.getName()))
+                {
+                    temaClassName = info.getClassName();
+                    break;
+                }
+            }
+            UIManager.setLookAndFeel(temaClassName);
         }
-        catch (Exception e){}
+        catch(Exception e){}
+        // Carica il look and feel predefinito di sistema (non funziona su XFCE)
+        /*try
+        {
+            String nome = UIManager.getSystemLookAndFeelClassName();
+            System.out.println(nome);
+            UIManager.setLookAndFeel(nome);
+        }
+        catch (Exception e){}*/
         /*try
         {
             for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels())
